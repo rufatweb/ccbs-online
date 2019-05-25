@@ -3,7 +3,7 @@
   <li class="logo"><a href="#home"><img class="logo" width="50" height="50"  src="../assets/logo.jpg" /></a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
-  <li><a href="#services">Our Services</a></li>
+  <li><a href="#services">Services</a></li>
 </ul>
 </template>
 
