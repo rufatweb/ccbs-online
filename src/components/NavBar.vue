@@ -1,9 +1,9 @@
 <template>
   <ul class="topnav">
-  <li class="logo"><a href="#home"><img class="logo" width="50" height="50"  src="../assets/logo.jpg" /></a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="#services">Services</a></li>
+  <li class="logo"><router-link to="/"><img class="logo" width="50" height="50"  src="../assets/logo.jpg" /></router-link></li>
+  <li><router-link to="/contact">Contact</router-link></li>
+  <li><router-link to="/about">About</router-link></li>
+  <li><router-link to="/services">Services</router-link></li>
 </ul>
 </template>
 
@@ -43,7 +43,7 @@ ul.topnav li a {
 
 ul.topnav li:not(.logo) a:hover {background-color: #000000; color: #FFF}
 
-ul.topnav li.logo a:hover {border: 1px solid black; padding: 15px;}
+ul.topnav li.logo a:hover {border: 1px solid black; padding: 15px; border-radius: 2px;}
 
 ul.topnav li.logo {float: left; margin-left: 30px;}
 
