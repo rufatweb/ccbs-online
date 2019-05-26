@@ -2,21 +2,24 @@
   <div id="app">
     <NavBar />
     <router-view></router-view>
+    <Footer />
   </div>
 </template>
 
 <script>
 import NavBar from "./components/NavBar.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "app",
   components: {
-    NavBar
+    NavBar,
+    Footer
   }
 };
 </script>
 
-<style>
+<style >
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
