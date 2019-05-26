@@ -13,7 +13,7 @@ export default {
 
 <style scoped>
 #footer {
-  background-color: black;
+  background-color: #464646;
   color: white;
   border: 1px solid black;
   width: 100%;

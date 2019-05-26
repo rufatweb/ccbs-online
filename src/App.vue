@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <NavBar />
-    <router-view></router-view>
+    <section class="mainBody">
+      <hr>
+    <router-view ></router-view>
+    </section>
     <Footer />
   </div>
 </template>

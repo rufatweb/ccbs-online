@@ -4,6 +4,7 @@
   <li><router-link to="/contact">Contact</router-link></li>
   <li><router-link to="/about">About</router-link></li>
   <li><router-link to="/services">Services</router-link></li>
+  <li><router-link to="/">Home</router-link></li>
 </ul>
 </template>
 
@@ -34,16 +35,14 @@ ul.topnav li:not(.logo) {
 
 ul.topnav li a {
   display: block;
-  color: black;
+  color: #464646;
   text-align: center;
   padding: 14px 16px;
   font-size: 20px;
   text-decoration: none;
 }
 
-ul.topnav li:not(.logo) a:hover {background-color: #000000; color: #FFF}
-
-ul.topnav li.logo a:hover {border: 1px solid black; padding: 15px; border-radius: 2px;}
+ul.topnav li:not(.logo) a:hover {background-color: #464646; color: #FFF}
 
 ul.topnav li.logo {float: left; margin-left: 30px;}
 

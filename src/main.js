@@ -10,12 +10,15 @@ Vue.config.productionTip = false;
 
 Vue.use(VueRouter);
 
+
+
 const routes = [
   { path: "/about", component: About },
-  { path: "/services", component: Services},
+  { path: "/services", component: Services },
   { path: "/contact", component: Contact },
   { path: "/", component: Home }
 ];
+
 
 const router = new VueRouter({
   routes,
